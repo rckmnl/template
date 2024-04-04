@@ -1,0 +1,1 @@
+{"code":202,"level":"error","message":"Account already exists for this username.","stack":"Error: Account already exists for this username.\n    at /home/erick/Escritorio/espana/template/template-backend/node_modules/parse-server/src/RestWrite.js:683:15\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-03-12T22:20:19.823Z"}

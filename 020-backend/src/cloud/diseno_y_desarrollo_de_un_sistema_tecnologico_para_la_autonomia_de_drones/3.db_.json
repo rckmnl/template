@@ -1,0 +1,62 @@
+{
+  "Collection": {
+    "users": {
+      "#user_phone": "teléfono_de_contacto",
+      "#user_brithdate": "fecha_de_nacimiento",
+      "#user_type_user": "si es conductor, trabajador, o admin",
+      "#user_demographics": "edad género ubicación geográfica (pais provincia)"
+    },
+    "person": {
+      "#per_user_id": "id_de_usuario",
+      "#per_interests": "intereses_del_usuario(formulario preguntas y respuestas)"
+    },
+    "Drones": {
+      "#dro_model": "Modelo del Dron",
+      "#dro_status": "Estado del Dron (activo, reposo, desabilitado/fuera de servicio)",
+      "#dro_configuration": "Configuración del Dron (parámetros de vuelo, cámaras instaladas, etc.)",
+      "#dro_GPS": "codigo GPS"
+    },
+    "Locations": {
+      "#loc_location_name": "Nombre de la Ubicación",
+      "#loc_geographical_coordinates": "coordenadas geográficas (latitud y longitud)"
+    },
+    "flightData": {
+      "#fli_dron_id": "ID del Dron",
+      "#fli_GPS_coordinates": "Coordenadas GPS",
+      "#fli_Altitude": "Altitud",
+      "#fli_Speed": "Velocidad",
+      "#fli_flight_duration": "Duración del Vuelo",
+      "#fli_datetime_flight": "Fecha y Hora del Vuelo"
+    },
+    "fireDetection": {
+      "#fire_location_id": "ID de Locations",
+      "#fire_datetime_detection": "Fecha y Hora de Detección",
+      "#fire_fire_intensity": "Intensidad del Incendio",
+      "#fire_size": "Tamaño del Incendio"
+    },
+    "activityLogs": {
+      "#reg_person_id": "ID de person",
+      "#reg_action_performed": "Acción Realizada en relacion a la actividad del dron",
+      "#reg_datetime_activity": "Fecha y Hora de la Actividad en relacion a la actividad del dron"
+    },
+    "alertsNotifications": {
+      "#alert_location_id": "ID de Ubicación",
+      "#alert_type": "Tipo de Alerta",
+      "#alert_datetime": "Fecha y Hora de la Alerta",
+      "#alert_status": "Estado de la Acción Tomada"
+    },
+    "interests": {
+      "#variable_interest_1": "variable de interes para generar una recomendacion",
+      "#variable_interest_2": "variable de interes para generar una recomendacion",
+      "#variable_interest_3": "variable de interes para generar una recomendacion",
+      "#variable_interest_4": "variable de interes para generar una recomendacion"
+    },
+    "advices": {
+      "#adv_person_id": "ID de la persona asociada a la recomendacion",
+      "#adv_interaction_type": "Tipo de interacción (identificar si es por chatbot o recomendacion si aplica)",
+      "#adv_timestamp": "Fecha y Hora de Interacción",
+      "#adv_recommendations": "resultado de la recomendacion",
+      "#adv_user_feedback": "Retroalimentación del usuario sobre la recomendacion"
+    }
+  }
+}
